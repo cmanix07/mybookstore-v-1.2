@@ -1,0 +1,10 @@
+spring:
+    profiles:
+        active: dev
+    cloud:
+        config:
+            uri: http://localhost:2345
+    application:
+        name: my-userrating-ms
+server:
+    port: 6500
