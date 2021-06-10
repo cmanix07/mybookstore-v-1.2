@@ -1,0 +1,10 @@
+spring:
+    profiles:
+        active: dev
+    cloud:
+        config:
+            uri: http://localhost:2345
+    application:
+        name: my-bookprice-ms
+server:
+    port: 9000
