@@ -1,0 +1,14 @@
+--- 
+server: 
+  port: 2345
+spring: 
+  profiles:
+    active: dev
+  application: 
+    name: cloud-config-server
+  cloud: 
+    config: 
+      server: 
+        git: 
+          #uri: C:\dev\workspace\cloud-config-repo
+          uri:https://github.com/lekhrajprasad/cloud-config-repo
